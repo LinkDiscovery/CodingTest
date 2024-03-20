@@ -1,12 +1,7 @@
-nums = []
-for _ in range(5):
-    n = int(input())
-    nums.append(n)
-
-nums.sort() 
-
-print(sum(nums) // 5)
-
-print(nums[2])
-
+x = []
+for i in range(5):
+    x.append(int(input()))
+x.sort()
+print(int(sum(x)/5))
+print(x[2])
 
